@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Montserrat:ital,wght@1,200&family=Mulish:ital,wght@1,500&family=Poppins:ital,wght@0,300;1,700&family=Roboto+Mono:ital,wght@1,300&family=Work+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Montserrat:ital,wght@1,200&family=Mulish:ital,wght@1,500&family=Poppins:ital,wght@1,900&family=Roboto+Mono:ital,wght@1,300&family=Work+Sans:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: sticky;
+  height: 70px;
+  top: 0;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  color: aliceblue;
+  margin: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: space-between;
+}
+nav ul li a:hover {
+  color: aqua;
+  transform: scale(1.4);
+}
+.banner-image{
+background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+height: 550px;
+background-size: cover;
+}
+.banner-image h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    color: aliceblue;
+    position: relative;
+    top: 35%;
+    left: 43%;
+}
+.banner-image h2{
+    color: aliceblue;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 43%;
+    left: 35%;
+}
+.vegetarian-heading,.nonveg-heading h3{
+    padding-top: 50px;
+    padding-left: 80px;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    height: 30px;
+}
+.vegtarian-row,.nonveg-row{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    
+    height: 200px;
+    width: 300px;
+    border-radius: 20x;
+}
+.col{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 4px 4px 2px #888888;
+}
+.col h4,h5{
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Work Sans', sans-serif;
+}
+.col h6{
+    padding: 5px;
+   font-size: 17px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.col a{
+    background-color: #52cbe3;
+    padding: 4px;
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    margin-left: 220px;
+    border-radius: 5px;
+}
+.col:hover{
+    transform: scale(1.1);
+}
+.footer_div{
+    height: 200px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
